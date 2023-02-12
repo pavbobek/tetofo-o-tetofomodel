@@ -1,0 +1,102 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "tetofodesignpattern/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/tetofodesignpattern.dll": {
+            "related": ".runtimeconfig.json"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/tetofodesignpattern.dll": {
+            "related": ".runtimeconfig.json"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tetofodesignpattern/1.0.0": {
+      "sha512": "3fs16Y6VXadQcc8OLhEcrc7+M+cGTaSMA81yjANzG5Z0qbVlnI/TkZ8FFpMGAKpMvmwFtNOs/29hMiUEGGi8rg==",
+      "type": "package",
+      "path": "tetofodesignpattern/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net7.0/tetofodesignpattern.dll",
+        "lib/net7.0/tetofodesignpattern.runtimeconfig.json",
+        "tetofodesignpattern.1.0.0.nupkg.sha512",
+        "tetofodesignpattern.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "tetofodesignpattern >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pavbo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\sandbox\\tetofo\\tetofomodel\\tetofomodel.csproj",
+      "projectName": "tetofomodel",
+      "projectPath": "C:\\sandbox\\tetofo\\tetofomodel\\tetofomodel.csproj",
+      "packagesPath": "C:\\Users\\pavbo\\.nuget\\packages\\",
+      "outputPath": "C:\\sandbox\\tetofo\\tetofomodel\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\pavbo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "tetofodesignpattern": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
